@@ -25,16 +25,17 @@ export default function Home() {
           padding: 10,
         }}>
         <View>
+          <TouchableOpacity>
           <Image
             source={require('../assets/me.jpg')}
             style={{
               width: 100,
               height: 100,
               borderRadius: 100,
-              top: -55,
+              top: -60,
               left: 19,
             }}
-          />
+          /></TouchableOpacity>
           <TouchableOpacity>
             <Feather
               name="edit"
