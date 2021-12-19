@@ -1,5 +1,12 @@
 import React from 'react';
-import {View, Text, SafeAreaView, ScrollView, Image} from 'react-native';
+import {
+  View,
+  Text,
+  SafeAreaView,
+  ScrollView,
+  Image,
+  TouchableOpacity,
+} from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
@@ -15,10 +22,12 @@ export default function Home2() {
           //backgroundColor: 'red',
           marginTop: 35,
         }}>
-        <Image
-          source={require('../assets/me6.jpg')}
-          style={{width: 200, height: 200, borderRadius: 100}}
-        />
+        <TouchableOpacity>
+          <Image
+            source={require('../assets/me6.jpg')}
+            style={{width: 200, height: 200, borderRadius: 100}}
+          />
+        </TouchableOpacity>
       </View>
       <View
         style={{
@@ -104,7 +113,7 @@ export default function Home2() {
               width: 300,
               top: 30,
             }}>
-            <Ionicons name="ios-school" size={30} />
+            <Ionicons name="ios-school" size={30} style={{top: -4}} />
             <Text style={{fontWeight: 'bold', fontSize: 20, color: 'white'}}>
               Bachelor's degree
             </Text>

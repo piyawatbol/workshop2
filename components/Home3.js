@@ -53,8 +53,18 @@ export default function Home3() {
                 marginLeft: 19,
                 bottom: -8,
               }}>
-              <AntDesign name="phone" size={25} style={{marginTop: 10}} />
-              <Text style={{fontSize: 17, padding: 10, fontWeight: 'bold'}}>
+              <AntDesign
+                name="phone"
+                size={25}
+                style={{marginTop: 10, color: 'black'}}
+              />
+              <Text
+                style={{
+                  fontSize: 17,
+                  padding: 10,
+                  fontWeight: '400',
+                  color: 'black',
+                }}>
                 0620623676
               </Text>
             </View>
@@ -65,8 +75,18 @@ export default function Home3() {
 
                 marginLeft: 19,
               }}>
-              <Entypo name="mail" size={25} style={{marginTop: 10}} />
-              <Text style={{fontSize: 17, padding: 10, fontWeight: 'bold'}}>
+              <Entypo
+                name="mail"
+                size={25}
+                style={{marginTop: 10, color: 'black'}}
+              />
+              <Text
+                style={{
+                  fontSize: 17,
+                  padding: 10,
+                  fontWeight: '400',
+                  color: 'black',
+                }}>
                 Piyawatbol@gmail.com
               </Text>
             </View>
@@ -81,9 +101,15 @@ export default function Home3() {
               <AntDesign
                 name="facebook-square"
                 size={25}
-                style={{marginTop: 10}}
+                style={{marginTop: 10, color: 'black'}}
               />
-              <Text style={{fontSize: 17, padding: 10, fontWeight: 'bold'}}>
+              <Text
+                style={{
+                  fontSize: 17,
+                  padding: 10,
+                  fontWeight: '400',
+                  color: 'black',
+                }}>
                 Piyawat Sakdadet
               </Text>
             </View>
@@ -95,12 +121,17 @@ export default function Home3() {
                 marginLeft: 19,
                 top: -11,
               }}>
-              <Fontisto name="line" size={25} style={{marginTop: 10}} />
+              <Fontisto
+                name="line"
+                size={25}
+                style={{marginTop: 10, color: 'black'}}
+              />
               <Text
                 style={{
                   fontSize: 17,
-                  fontWeight: 'bold',
+                  fontWeight: '400',
                   padding: 10,
+                  color: 'black',
                 }}>
                 pywsd_050943
               </Text>
@@ -115,13 +146,14 @@ export default function Home3() {
               <MaterialCommunityIcons
                 name="instagram"
                 size={25}
-                style={{marginTop: 10}}
+                style={{marginTop: 10, color: 'black'}}
               />
               <Text
                 style={{
                   fontSize: 17,
-                  fontWeight: 'bold',
+                  fontWeight: '400',
                   padding: 10,
+                  color: 'black',
                 }}>
                 sakkda_05
               </Text>
