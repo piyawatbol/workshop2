@@ -26,16 +26,17 @@ export default function Home() {
         }}>
         <View>
           <TouchableOpacity>
-          <Image
-            source={require('../assets/me.jpg')}
-            style={{
-              width: 100,
-              height: 100,
-              borderRadius: 100,
-              top: -60,
-              left: 19,
-            }}
-          /></TouchableOpacity>
+            <Image
+              source={require('../assets/me.jpg')}
+              style={{
+                width: 100,
+                height: 100,
+                borderRadius: 100,
+                top: -60,
+                left: 19,
+              }}
+            />
+          </TouchableOpacity>
           <TouchableOpacity>
             <Feather
               name="edit"
@@ -56,9 +57,8 @@ export default function Home() {
             //backgroundColor: 'red'
           }}>
           <Text style={{fontSize: 25, fontWeight: '900', color: 'black'}}>
-            PiyawaT
+            PROFILE
           </Text>
-          <Text style={{}}>@pywsdd5943</Text>
         </View>
         <View>
           <View
@@ -124,35 +124,35 @@ export default function Home() {
 
         <ScrollView horizontal={true}>
           <View style={{flexDirection: 'row', padding: 5}}>
-            <View style={{marginLeft: 5}}>
+            <View style={{marginLeft: 1}}>
               <TouchableOpacity>
                 <Image
-                  source={require('../assets/me.jpg')}
-                  style={{height: 245, width: 170, borderRadius: 10}}
+                  source={require('../assets/me2.jpg')}
+                  style={{height: 270, width: 170, borderRadius: 10}}
                 />
               </TouchableOpacity>
             </View>
             <View style={{marginLeft: 5}}>
               <TouchableOpacity>
                 <Image
-                  source={require('../assets/me.jpg')}
-                  style={{height: 245, width: 170, borderRadius: 10}}
+                  source={require('../assets/me3.jpg')}
+                  style={{height: 270, width: 170, borderRadius: 10}}
                 />
               </TouchableOpacity>
             </View>
             <View style={{marginLeft: 5}}>
               <TouchableOpacity>
                 <Image
-                  source={require('../assets/me.jpg')}
-                  style={{height: 245, width: 170, borderRadius: 10}}
+                  source={require('../assets/me4.jpg')}
+                  style={{height: 270, width: 170, borderRadius: 10}}
                 />
               </TouchableOpacity>
             </View>
             <View style={{marginLeft: 5}}>
               <TouchableOpacity>
                 <Image
-                  source={require('../assets/me.jpg')}
-                  style={{height: 245, width: 170, borderRadius: 10}}
+                  source={require('../assets/me5.jpg')}
+                  style={{height: 270, width: 170, borderRadius: 10}}
                 />
               </TouchableOpacity>
             </View>

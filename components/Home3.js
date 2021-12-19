@@ -24,7 +24,16 @@ export default function Home3() {
             padding: 15,
           }}>
           <View style={{marginLeft: 10}}>
-            <Text style={{fontSize: 25, fontWeight: 'bold',color: 'black',top: -5}}> Contact </Text>
+            <Text
+              style={{
+                fontSize: 25,
+                fontWeight: 'bold',
+                color: 'black',
+                top: -5,
+              }}>
+              {' '}
+              CONTACT{' '}
+            </Text>
           </View>
           <View
             style={{
