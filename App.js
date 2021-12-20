@@ -26,15 +26,15 @@ export default function App() {
             let iconName;
             if (route.name === 'Home') {
               iconName = focused ? 'home-sharp' : 'home-outline';
-              size = focused ? size + 8 : size + 1;
+              size = focused ? size + 6 : size + 1;
             } else if (route.name === 'Home2') {
-              iconName = focused ? 'body-sharp' : 'body-outline';
-              size = focused ? size + 8 : size + 1;
+              iconName = focused ? 'ios-book' : 'ios-book-outline';
+              size = focused ? size + 6 : size + 1;
             } else if (route.name === 'Home3') {
               iconName = focused
                 ? 'ios-person-circle-sharp'
                 : 'ios-person-circle-outline';
-              size = focused ? size + 8 : size + 1;
+              size = focused ? size + 6 : size + 1;
             }
 
             return <Ionic name={iconName} size={size} color="black" />;
