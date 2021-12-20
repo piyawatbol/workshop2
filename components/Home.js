@@ -135,14 +135,6 @@ export default function Home() {
             <View style={{marginLeft: 5}}>
               <TouchableOpacity>
                 <Image
-                  source={require('../assets/me3.jpg')}
-                  style={{height: 270, width: 170, borderRadius: 10}}
-                />
-              </TouchableOpacity>
-            </View>
-            <View style={{marginLeft: 5}}>
-              <TouchableOpacity>
-                <Image
                   source={require('../assets/me4.jpg')}
                   style={{height: 270, width: 170, borderRadius: 10}}
                 />
@@ -152,6 +144,14 @@ export default function Home() {
               <TouchableOpacity>
                 <Image
                   source={require('../assets/me5.jpg')}
+                  style={{height: 270, width: 170, borderRadius: 10}}
+                />
+              </TouchableOpacity>
+            </View>
+            <View style={{marginLeft: 5}}>
+              <TouchableOpacity>
+                <Image
+                  source={require('../assets/me3.jpg')}
                   style={{height: 270, width: 170, borderRadius: 10}}
                 />
               </TouchableOpacity>

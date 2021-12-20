@@ -12,7 +12,15 @@ export default function Home3() {
       <View style={styles.bottomContainer}>
         <Image style={styles.profile} source={require('../assets/me3.jpg')} />
         <Text style={styles.name}>Piyawat Sakdadet</Text>
-        <Text style={{color: 'grey', bottom: '7%', fontSize: 20}}>
+        <Text
+          style={{
+            color: '#19123B',
+            bottom: '7%',
+            fontSize: 20,
+            fontWeight: '600',
+            fontFamily: 'Itim-Regular',
+            top: -65,
+          }}>
           Engineer Computer
         </Text>
         <View
@@ -27,12 +35,13 @@ export default function Home3() {
             <Text
               style={{
                 fontSize: 25,
-                fontWeight: 'bold',
-                color: 'black',
-                top: -5,
+                fontWeight: '600',
+                color: '#19123B',
+                top: -20,
+                left: 10,
+                fontFamily: 'Itim-Regular',
               }}>
-              {' '}
-              CONTACT{' '}
+              CONTACT
             </Text>
           </View>
           <View
@@ -40,11 +49,11 @@ export default function Home3() {
               flexDirection: 'column',
               backgroundColor: '#DCDCDC',
               borderRadius: 19,
-              bottom: -6,
               alignContent: 'center',
               flexDirection: 'column',
               alignItems: 'flex-start',
               height: 260,
+              top: -15,
             }}>
             <View
               style={{
@@ -63,10 +72,11 @@ export default function Home3() {
                 style={{
                   fontSize: 20,
                   padding: 10,
-                  fontWeight: '400',
-                  color: '#333333',
+                  fontWeight: '500',
+                  color: '#646464',
                   top: 5,
                   left: 4,
+                  fontFamily: 'Itim-Regular',
                 }}>
                 0620623676
               </Text>
@@ -87,10 +97,11 @@ export default function Home3() {
                 style={{
                   fontSize: 20,
                   padding: 10,
-                  fontWeight: '400',
-                  color: '#333333',
+                  fontWeight: '500',
+                  color: '#646464',
                   top: 3,
                   left: 4,
+                  fontFamily: 'Itim-Regular',
                 }}>
                 Piyawatbol@gmail.com
               </Text>
@@ -112,10 +123,11 @@ export default function Home3() {
                 style={{
                   fontSize: 20,
                   padding: 10,
-                  fontWeight: '400',
-                  color: '#333333',
+                  fontWeight: '500',
+                  color: '#646464',
                   top: 3,
                   left: 4,
+                  fontFamily: 'Itim-Regular',
                 }}>
                 Piyawat Sakdadet
               </Text>
@@ -136,11 +148,12 @@ export default function Home3() {
               <Text
                 style={{
                   fontSize: 20,
-                  fontWeight: '400',
+                  fontWeight: '500',
                   padding: 10,
-                  color: 'black',
+                  color: '#646464',
                   top: 3,
                   left: 1,
+                  fontFamily: 'Itim-Regular',
                 }}>
                 pywsd_050943
               </Text>
@@ -160,11 +173,12 @@ export default function Home3() {
               <Text
                 style={{
                   fontSize: 20,
-                  fontWeight: '400',
+                  fontWeight: '500',
                   padding: 10,
-                  color: 'black',
+                  color: '#646464',
                   left: 3,
                   top: 3,
+                  fontFamily: 'Itim-Regular',
                 }}>
                 sakkda_05
               </Text>
@@ -195,8 +209,8 @@ const styles = StyleSheet.create({
     height: '90%',
     width: 400,
     backgroundColor: '#FFFAFA',
-    borderTopEndRadius: 50,
-    borderTopStartRadius: 50,
+    borderTopEndRadius: 55,
+    borderTopStartRadius: 55,
     alignItems: 'center',
   },
   profile: {
@@ -206,9 +220,10 @@ const styles = StyleSheet.create({
     bottom: '10%',
   },
   name: {
-    fontSize: 30,
-    fontWeight: 'bold',
+    fontSize: 35,
+    fontWeight: '600',
     bottom: '8%',
-    color: 'black',
+    color: '#19123B',
+    fontFamily: 'Itim-Regular',
   },
 });
