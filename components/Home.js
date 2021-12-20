@@ -56,7 +56,7 @@ export default function Home() {
             flexDirection: 'column',
             //backgroundColor: 'red'
           }}>
-          <Text style={{fontSize: 25, fontWeight: '900', color: 'black'}}>
+          <Text style={{fontSize: 28, fontWeight: '900', color: 'black'}}>
             PROFILE
           </Text>
         </View>

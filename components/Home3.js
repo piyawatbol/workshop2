@@ -44,6 +44,7 @@ export default function Home3() {
               alignContent: 'center',
               flexDirection: 'column',
               alignItems: 'flex-start',
+              height: 260,
             }}>
             <View
               style={{
@@ -55,15 +56,17 @@ export default function Home3() {
               }}>
               <AntDesign
                 name="phone"
-                size={25}
-                style={{marginTop: 10, color: 'black'}}
+                size={35}
+                style={{marginTop: 10, color: 'green'}}
               />
               <Text
                 style={{
-                  fontSize: 17,
+                  fontSize: 20,
                   padding: 10,
                   fontWeight: '400',
-                  color: 'black',
+                  color: '#333333',
+                  top: 5,
+                  left: 4,
                 }}>
                 0620623676
               </Text>
@@ -77,15 +80,17 @@ export default function Home3() {
               }}>
               <Entypo
                 name="mail"
-                size={25}
-                style={{marginTop: 10, color: 'black'}}
+                size={35}
+                style={{marginTop: 10, color: '#4285F4'}}
               />
               <Text
                 style={{
-                  fontSize: 17,
+                  fontSize: 20,
                   padding: 10,
                   fontWeight: '400',
-                  color: 'black',
+                  color: '#333333',
+                  top: 3,
+                  left: 4,
                 }}>
                 Piyawatbol@gmail.com
               </Text>
@@ -100,15 +105,17 @@ export default function Home3() {
               }}>
               <AntDesign
                 name="facebook-square"
-                size={25}
-                style={{marginTop: 10, color: 'black'}}
+                size={35}
+                style={{marginTop: 10, color: '#0D88EF'}}
               />
               <Text
                 style={{
-                  fontSize: 17,
+                  fontSize: 20,
                   padding: 10,
                   fontWeight: '400',
-                  color: 'black',
+                  color: '#333333',
+                  top: 3,
+                  left: 4,
                 }}>
                 Piyawat Sakdadet
               </Text>
@@ -123,15 +130,17 @@ export default function Home3() {
               }}>
               <Fontisto
                 name="line"
-                size={25}
-                style={{marginTop: 10, color: 'black'}}
+                size={35}
+                style={{marginTop: 10, color: '#00B900'}}
               />
               <Text
                 style={{
-                  fontSize: 17,
+                  fontSize: 20,
                   fontWeight: '400',
                   padding: 10,
                   color: 'black',
+                  top: 3,
+                  left: 1,
                 }}>
                 pywsd_050943
               </Text>
@@ -145,15 +154,17 @@ export default function Home3() {
               }}>
               <MaterialCommunityIcons
                 name="instagram"
-                size={25}
-                style={{marginTop: 10, color: 'black'}}
+                size={35}
+                style={{marginTop: 10, color: '#CA2379'}}
               />
               <Text
                 style={{
-                  fontSize: 17,
+                  fontSize: 20,
                   fontWeight: '400',
                   padding: 10,
                   color: 'black',
+                  left: 3,
+                  top: 3,
                 }}>
                 sakkda_05
               </Text>
