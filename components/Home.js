@@ -156,6 +156,14 @@ export default function Home() {
                 />
               </TouchableOpacity>
             </View>
+            <View style={{marginLeft: 5}}>
+              <TouchableOpacity>
+                <Image
+                  source={require('../assets/p8.jpg')}
+                  style={{height: 270, width: 170, borderRadius: 10}}
+                />
+              </TouchableOpacity>
+            </View>
           </View>
         </ScrollView>
       </View>
